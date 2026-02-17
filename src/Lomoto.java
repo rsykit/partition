@@ -10,7 +10,7 @@ public class Lomoto {
         //j is the index of the current element being compared to the pivot
         for (int j = low; j < high; j++) {
             //if the current element is smaller than the pivot
-            if (arr[j] < pivot) {
+            if (arr[j] <= pivot) {
                 //increment the index of the smaller element
                 i++;
                 //swap the elements at index i and j
